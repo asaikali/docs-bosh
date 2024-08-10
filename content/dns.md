@@ -437,6 +437,7 @@ based on an instance's endemic and organizational relationship; e.g., by an
 instance's healthiness, its availability zone, or group id.
 
 Supported DNS records follow the format `<query>.<instance-group>.<network>.<deployment>.<tld>` with:
+
 * `<query>`: a query part starting with `q-` followed by a number of parameters detailed below (e.g. health, az or instance/network uid)
 * `<instance-group>`: the name of the instance group to include or `*` to include all instance groups
 * `<network>`: the name of the network to include or `*` to include IP addresses from all networks
